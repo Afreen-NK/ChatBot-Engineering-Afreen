@@ -1,0 +1,1196 @@
+[
+  {
+    "id": 1,
+    "category": "Career Paths",
+    "question": "What does a software engineer do?",
+    "answer": "A software engineer designs, develops, tests, and maintains computer software, systems, and applications using programming languages, frameworks, algorithms, and engineering principles.",
+    "keywords": [
+      "software engineer",
+      "software development",
+      "swe",
+      "sde",
+      "role",
+      "responsibilities"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Career Paths",
+    "question": "What does an AI/ML engineer do?",
+    "answer": "An AI/ML engineer builds, trains, tunes, and deploys machine learning models and artificial intelligence systems to automate tasks, make predictions, and solve complex data-driven problems.",
+    "keywords": [
+      "ai engineer",
+      "machine learning engineer",
+      "ml role",
+      "artificial intelligence",
+      "responsibilities"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Career Paths",
+    "question": "What is data science and what do data scientists do?",
+    "answer": "Data science is an interdisciplinary field combining statistics, machine learning, and domain knowledge to extract actionable insights and predictive patterns from large datasets.",
+    "keywords": [
+      "data science",
+      "data scientist",
+      "analytics",
+      "statistics",
+      "data analysis"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Career Paths",
+    "question": "What is embedded systems engineering?",
+    "answer": "Embedded systems engineering involves designing integrated hardware-software computing systems with dedicated functions, such as microcontrollers in automotive systems, medical devices, and smart appliances.",
+    "keywords": [
+      "embedded systems",
+      "firmware",
+      "microcontroller",
+      "hardware software",
+      "microprocessor"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Career Paths",
+    "question": "What is VLSI and what career opportunities does it offer?",
+    "answer": "VLSI (Very Large Scale Integration) is the process of creating integrated circuits by combining thousands of transistors into a single chip. It offers careers in chip design, verification, FPGA, and physical design.",
+    "keywords": [
+      "vlsi",
+      "what is vlsi",
+      "vlsi definition",
+      "chip design",
+      "semiconductor",
+      "integrated circuits",
+      "asic",
+      "fpga"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Career Paths",
+    "question": "What career options are available for ECE students?",
+    "answer": "ECE students can pursue core engineering careers in VLSI, embedded systems, robotics, IoT, telecommunications, signal processing, or transition into software engineering, data science, and AI/ML.",
+    "keywords": [
+      "ece careers",
+      "electronics communication",
+      "hardware",
+      "telecom",
+      "electronics jobs"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Career Paths",
+    "question": "What is DevOps and what does a DevOps engineer do?",
+    "answer": "DevOps bridges software development and IT operations. A DevOps engineer automates deployment pipelines (CI/CD), manages cloud infrastructure, monitors system health, and ensures high availability.",
+    "keywords": [
+      "devops",
+      "ci cd",
+      "cloud operations",
+      "automation",
+      "infrastructure",
+      "kubernetes",
+      "docker"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Career Paths",
+    "question": "What is cybersecurity and how do I enter the security field?",
+    "answer": "Cybersecurity focuses on protecting networks, computers, and data from digital attacks. You can enter the field by learning networking fundamentals, Linux, ethical hacking, cryptography, and certifications like CompTIA Security+.",
+    "keywords": [
+      "cybersecurity",
+      "information security",
+      "ethical hacking",
+      "infosec",
+      "network security"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Career Paths",
+    "question": "What is cloud computing and what are cloud roles?",
+    "answer": "Cloud computing delivers computing services over the internet. Key roles include Cloud Engineer, Cloud Architect, and Cloud Security Specialist, working primarily with AWS, Microsoft Azure, or Google Cloud.",
+    "keywords": [
+      "cloud computing",
+      "cloud engineer",
+      "aws",
+      "azure",
+      "gcp",
+      "cloud architect"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Career Paths",
+    "question": "What is the difference between product-based and service-based companies?",
+    "answer": "Product-based companies (e.g., Google, Microsoft, Adobe) develop and sell their own software products with high emphasis on DSA and system design. Service-based companies (e.g., TCS, Infosys, Wipro) build solutions for external clients.",
+    "keywords": [
+      "product based",
+      "service based",
+      "tcs",
+      "google",
+      "company difference",
+      "salaries"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Programming",
+    "question": "Which programming language should I learn first?",
+    "answer": "Python or C++ is recommended as a first language. Python is great for readable syntax and rapid prototyping, while C++ provides a deep understanding of memory management, pointers, and data structures.",
+    "keywords": [
+      "first programming language",
+      "learn coding",
+      "beginner language",
+      "start programming"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Programming",
+    "question": "Should I learn Python or C++?",
+    "answer": "Choose C++ if your primary focus is competitive programming, campus placement coding rounds, or low-level systems. Choose Python if you want to pursue AI/ML, data science, automation, or rapid web backend development.",
+    "keywords": [
+      "python vs cpp",
+      "python or c++",
+      "compare languages",
+      "which language"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Programming",
+    "question": "Why is C++ useful for campus placements?",
+    "answer": "C++ is extremely fast, includes the powerful Standard Template Library (STL) for fast data structure implementation, and is accepted and respected in almost all technical coding assessments.",
+    "keywords": [
+      "c++ placements",
+      "why cpp",
+      "stl",
+      "coding rounds",
+      "placement language"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Programming",
+    "question": "What is object-oriented programming (OOP)?",
+    "answer": "Object-Oriented Programming (OOP) is a programming paradigm based on objects containing data (attributes) and code (methods). Its four core pillars are Encapsulation, Abstraction, Inheritance, and Polymorphism.",
+    "keywords": [
+      "oop",
+      "object oriented programming",
+      "encapsulation",
+      "inheritance",
+      "polymorphism",
+      "abstraction"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Programming",
+    "question": "How important are data structures and algorithms (DSA)?",
+    "answer": "DSA is essential for engineering students. It teaches problem-solving efficiency, algorithmic thinking, and time/space complexity optimization, and forms the core of technical interviews at top tech companies.",
+    "keywords": [
+      "dsa",
+      "data structures",
+      "algorithms",
+      "importance of dsa",
+      "coding interviews"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Programming",
+    "question": "How should I start practicing DSA for placements?",
+    "answer": "Start with basic data structures (arrays, strings, linked lists, stacks, queues), then move to trees, graphs, dynamic programming, and recursion. Practice consistently on platforms like LeetCode, HackerRank, or GeeksforGeeks.",
+    "keywords": [
+      "practice dsa",
+      "leetcode",
+      "hackerrank",
+      "start dsa",
+      "dsa roadmap"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Programming",
+    "question": "Is Java good for campus placements?",
+    "answer": "Yes, Java is an excellent language for campus placements. It is widely used in enterprise software, features strong OOP principles, has a robust Collections Framework, and is widely accepted in coding tests.",
+    "keywords": [
+      "java",
+      "java placements",
+      "collections framework",
+      "enterprise",
+      "java vs python"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "Programming",
+    "question": "What is competitive programming and is it mandatory?",
+    "answer": "Competitive programming (CP) is solving algorithmic challenges under time constraints. It is not strictly mandatory for all jobs, but it significantly sharpens problem-solving speed and accuracy for tough coding rounds.",
+    "keywords": [
+      "competitive programming",
+      "codeforces",
+      "codechef",
+      "is cp mandatory"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Programming",
+    "question": "What is SQL and why should engineers learn databases?",
+    "answer": "SQL (Structured Query Language) is used to communicate with and manipulate relational databases. Almost every software and data engineering role requires storing, retrieving, and organizing data with SQL.",
+    "keywords": [
+      "sql",
+      "database",
+      "rdbms",
+      "mysql",
+      "postgresql",
+      "learn sql"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Programming",
+    "question": "What is Git and GitHub and why is version control necessary?",
+    "answer": "Git is a distributed version control system that tracks source code changes, while GitHub is a cloud platform for code hosting and collaboration. Version control enables teamwork, code backups, and project portfolio sharing.",
+    "keywords": [
+      "git",
+      "github",
+      "version control",
+      "repositories",
+      "commits",
+      "branches"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "AI/ML",
+    "question": "What should I learn to become an AI engineer?",
+    "answer": "To become an AI engineer, start with Python, linear algebra, calculus, probability, and statistics. Then master libraries like NumPy, Pandas, Scikit-Learn, PyTorch/TensorFlow, and build practical end-to-end projects.",
+    "keywords": [
+      "ai engineer roadmap",
+      "become ai engineer",
+      "skills for ai",
+      "learn artificial intelligence"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "AI/ML",
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a subset of AI where computers learn patterns from historical data to make decisions or predictions without being explicitly programmed for every scenario.",
+    "keywords": [
+      "what is machine learning",
+      "ml definition",
+      "supervised learning",
+      "unsupervised"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "AI/ML",
+    "question": "What is deep learning?",
+    "answer": "Deep learning is a specialized branch of machine learning based on multi-layered artificial neural networks. It excels at processing unstructured data like images, audio, video, and natural language text.",
+    "keywords": [
+      "deep learning",
+      "neural networks",
+      "cnn",
+      "rnn",
+      "transformers",
+      "dl"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "AI/ML",
+    "question": "What is natural language processing (NLP)?",
+    "answer": "Natural Language Processing (NLP) is a field of AI that enables computers to understand, interpret, and generate human languages using techniques such as tokenization, TF-IDF, embeddings, and language models.",
+    "keywords": [
+      "nlp",
+      "natural language processing",
+      "text processing",
+      "linguistics",
+      "language models"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "AI/ML",
+    "question": "What AI/ML projects should beginners build?",
+    "answer": "Beginners should build classic projects such as house price prediction, movie recommendation systems, sentiment analysis on tweets, spam email classifiers, or an FAQ chatbot using TF-IDF and NLTK.",
+    "keywords": [
+      "beginner ai projects",
+      "ml project ideas",
+      "first ml project",
+      "portfolio projects"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "AI/ML",
+    "question": "How much mathematics is required for machine learning?",
+    "answer": "A solid foundation in Linear Algebra (matrices, vectors, dot products), Multivariable Calculus (gradients, partial derivatives), Probability, and Statistics is needed to truly understand how ML algorithms optimize and generalize.",
+    "keywords": [
+      "math for ml",
+      "linear algebra",
+      "calculus",
+      "statistics",
+      "mathematics in ai"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "AI/ML",
+    "question": "Should I learn PyTorch or TensorFlow?",
+    "answer": "PyTorch is currently the industry and academic favorite due to its Pythonic design, dynamic computational graphs, and rapid adoption in research and generative AI. TensorFlow remains popular in enterprise production environments.",
+    "keywords": [
+      "pytorch vs tensorflow",
+      "pytorch or tensorflow",
+      "deep learning frameworks"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "AI/ML",
+    "question": "What is computer vision (CV)?",
+    "answer": "Computer Vision is an AI subfield that allows computers to interpret visual information from digital images and videos using convolutional neural networks (CNNs) and techniques like object detection and image segmentation.",
+    "keywords": [
+      "computer vision",
+      "opencv",
+      "object detection",
+      "image recognition",
+      "yolo"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "AI/ML",
+    "question": "What is Generative AI and Large Language Models (LLMs)?",
+    "answer": "Generative AI refers to algorithms capable of creating new content such as text, images, code, or audio. Large Language Models (LLMs) like GPT and Claude are trained on massive datasets using Transformer architectures.",
+    "keywords": [
+      "generative ai",
+      "llm",
+      "large language models",
+      "transformers",
+      "genai",
+      "chatgpt"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "AI/ML",
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "answer": "Supervised learning trains models on labeled input-output data pairs (e.g., classification, regression). Unsupervised learning discovers hidden patterns or groupings from unlabeled data (e.g., clustering, dimensionality reduction).",
+    "keywords": [
+      "supervised learning",
+      "unsupervised learning",
+      "labels",
+      "clustering",
+      "classification"
+    ]
+  },
+  {
+    "id": 31,
+    "category": "Internships",
+    "question": "How do I find internships as an engineering student?",
+    "answer": "You can find internships through college placement cells, LinkedIn job posts, platforms like Internshala, Wellfound (AngelList), GitHub job boards, company career pages, and hackathons.",
+    "keywords": [
+      "find internships",
+      "search internship",
+      "get internship",
+      "get an internship",
+      "apply internship",
+      "internship portals",
+      "internshala",
+      "linkedin jobs"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Internships",
+    "question": "When should engineering students start applying for internships?",
+    "answer": "Engineering students should start applying during their 4th or 5th semester (pre-final year) for summer internships. However, working on personal projects and open-source contributions can start as early as the 1st or 2nd year.",
+    "keywords": [
+      "when to apply",
+      "internship timeline",
+      "summer internship",
+      "semester apply"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Internships",
+    "question": "What should an internship resume contain?",
+    "answer": "An internship resume should highlight relevant technical skills, 2–3 practical academic or personal projects with GitHub links, education with CGPA, coding profile links, and any hackathons or leadership achievements.",
+    "keywords": [
+      "internship resume",
+      "resume contents",
+      "resume for internship",
+      "fresher resume"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Internships",
+    "question": "How can I prepare for internship interviews?",
+    "answer": "Prepare by reviewing basic data structures and algorithms, thoroughly understanding the architecture of every project on your resume, practicing basic OOP and database questions, and preparing behavioral STAR answers.",
+    "keywords": [
+      "internship interview",
+      "prepare interview",
+      "mock interview",
+      "interview questions"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Internships",
+    "question": "How do I reach out to recruiters or engineers on LinkedIn for internships?",
+    "answer": "Send a personalized connection request expressing appreciation for their work. In a concise follow-up message, state your technical strengths, share a link to your best project or GitHub profile, and ask politely if their team has internship openings.",
+    "keywords": [
+      "linkedin outreach",
+      "cold message",
+      "networking",
+      "reach out recruiters",
+      "referral"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Internships",
+    "question": "How do I write a cold email for an internship?",
+    "answer": "Keep it under 150 words. Introduce yourself, state the specific role you are interested in, mention 1–2 relevant skills and a project demonstrating your capability, attach your 1-page PDF resume, and provide your GitHub/portfolio link.",
+    "keywords": [
+      "cold email",
+      "email template",
+      "internship email",
+      "emailing professors",
+      "startup email"
+    ]
+  },
+  {
+    "id": 37,
+    "category": "Internships",
+    "question": "Are unpaid internships worth doing?",
+    "answer": "Only consider unpaid internships if they provide exceptional mentorship, hands-on exposure to production systems, or academic research credit. Avoid unpaid internships that exploit free labor without genuine learning.",
+    "keywords": [
+      "unpaid internship",
+      "stipend",
+      "worth it",
+      "free work"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Internships",
+    "question": "What is an off-campus internship and how is it different from on-campus?",
+    "answer": "On-campus internships are coordinated directly by your college training and placement cell. Off-campus internships require you to apply independently through portals, referrals, competitions, or direct outreach.",
+    "keywords": [
+      "off campus",
+      "on campus",
+      "off campus internship",
+      "campus drive"
+    ]
+  },
+  {
+    "id": 39,
+    "category": "Internships",
+    "question": "Can I get a research internship as an undergraduate student?",
+    "answer": "Yes. You can apply for research internships at institutes like IITs, IISc, TIFR, or foreign universities through formal summer research fellowships or by emailing professors directly with a strong statement of interest and background in their domain.",
+    "keywords": [
+      "research internship",
+      "iit internship",
+      "professor email",
+      "research fellowship"
+    ]
+  },
+  {
+    "id": 40,
+    "category": "Internships",
+    "question": "How can I convert my internship into a full-time job offer (PPO)?",
+    "answer": "Deliver high quality work on your assigned tasks, communicate proactively with your mentor, ask thoughtful questions, document your code thoroughly, and demonstrate enthusiasm and cultural fit with the engineering team.",
+    "keywords": [
+      "ppo",
+      "pre placement offer",
+      "convert internship",
+      "full time offer"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "Placements",
+    "question": "How should I prepare for campus placements?",
+    "answer": "Start by strengthening programming fundamentals, Data Structures and Algorithms (DSA), quantitative aptitude, core engineering subjects (OS, DBMS, CN), and practicing mock interviews and communication skills.",
+    "keywords": [
+      "prepare for placements",
+      "placement preparation",
+      "campus recruitment",
+      "placement strategy",
+      "get ready placements"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Placements",
+    "question": "What are aptitude tests in campus placements and how do I clear them?",
+    "answer": "Aptitude tests assess quantitative ability, logical reasoning, and verbal skills. Practice speed math, puzzles, and standard question types regularly on platforms like IndiaBIX, PrepInsta, and RS Aggarwal books.",
+    "keywords": [
+      "aptitude test",
+      "quantitative aptitude",
+      "logical reasoning",
+      "indiabix",
+      "aptitude round"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "Placements",
+    "question": "How important are online coding tests in placements?",
+    "answer": "Coding tests are the primary screening barrier for tech companies. Clearing them requires solving 1–3 algorithmic problems within 60–90 minutes with optimized time and space complexity.",
+    "keywords": [
+      "coding test",
+      "online assessment",
+      "oa",
+      "coding round",
+      "hackerank test"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "Placements",
+    "question": "How should I prepare for technical interviews?",
+    "answer": "Prepare to explain your resume projects in depth, write clean code on paper or whiteboard for DSA questions, and answer fundamental concepts in OS, DBMS, Computer Networks, and Object-Oriented Programming.",
+    "keywords": [
+      "technical interview",
+      "tech round",
+      "interview questions",
+      "face to face"
+    ]
+  },
+  {
+    "id": 45,
+    "category": "Placements",
+    "question": "How should I prepare for HR interviews in placements?",
+    "answer": "Research the company's culture and values. Prepare structured answers using the STAR method for common behavioral questions like 'Tell me about yourself', 'What are your strengths and weaknesses?', and 'Why this company?'.",
+    "keywords": [
+      "hr interview",
+      "hr round",
+      "tell me about yourself",
+      "behavioral questions",
+      "star method"
+    ]
+  },
+  {
+    "id": 46,
+    "category": "Placements",
+    "question": "What core computer science subjects are asked in technical interviews?",
+    "answer": "The four most critical subjects are Data Structures & Algorithms (DSA), Operating Systems (OS: processes, threads, memory), Database Management Systems (DBMS: SQL, indexing, ACID), and Computer Networks (CN: TCP/IP, OSI, HTTP).",
+    "keywords": [
+      "core cs subjects",
+      "os dbms cn",
+      "operating systems",
+      "dbms",
+      "computer networks"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "Placements",
+    "question": "What is a Group Discussion (GD) and how can I clear it?",
+    "answer": "A Group Discussion evaluates communication, leadership, listening skills, and critical thinking. Clear it by initiating or summarizing constructively, presenting fact-based arguments, and never interrupting others aggressively.",
+    "keywords": [
+      "group discussion",
+      "gd round",
+      "clear gd",
+      "communication skills"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Placements",
+    "question": "How can a tier-3 college student prepare for product company placements?",
+    "answer": "Focus on high-level DSA problem-solving on LeetCode, build 2–3 full-stack or systems projects with live deployments, contribute to open source, participate in hackathons, and seek off-campus referrals on LinkedIn.",
+    "keywords": [
+      "tier 3 college",
+      "product companies",
+      "off campus placement",
+      "faang preparation"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "Placements",
+    "question": "What is the STAR method for interview answers?",
+    "answer": "STAR stands for Situation, Task, Action, and Result. It is a structured storytelling framework for answering behavioral and situational questions clearly and convincingly with quantifiable outcomes.",
+    "keywords": [
+      "star method",
+      "situation task action result",
+      "behavioral answers"
+    ]
+  },
+  {
+    "id": 50,
+    "category": "Placements",
+    "question": "How important is CGPA in campus placements?",
+    "answer": "CGPA acts as an initial eligibility filter. Maintaining a CGPA above 7.5 (or ideally 8.0+) ensures you remain eligible for over 90% of visiting companies, although technical skill determines final selection.",
+    "keywords": [
+      "cgpa importance",
+      "minimum cgpa",
+      "grades",
+      "percentage for placements"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "Resume",
+    "question": "How do I create a good engineering resume?",
+    "answer": "Create a clean, single-page resume with clear sections: Header (Name, Contact, LinkedIn, GitHub), Education, Technical Skills, 2–3 Projects with bullet points highlighting your impact, Experience/Internships, and Achievements.",
+    "keywords": [
+      "create resume",
+      "make resume",
+      "build resume",
+      "write resume",
+      "make a resume",
+      "create a resume",
+      "engineering resume",
+      "resume guide",
+      "resume format",
+      "resume tips"
+    ]
+  },
+  {
+    "id": 52,
+    "category": "Resume",
+    "question": "How many projects should I include in my resume?",
+    "answer": "Include 2 to 3 high-quality, fully functional projects. It is far better to have two deeply understood projects with live demos and clean GitHub repositories than five superficial tutorial clones.",
+    "keywords": [
+      "how many projects",
+      "project count",
+      "resume projects"
+    ]
+  },
+  {
+    "id": 53,
+    "category": "Resume",
+    "question": "Should a fresher resume be 1 page or 2 pages?",
+    "answer": "A fresher engineering resume should strictly be 1 page. Recruiters spend only 6–10 seconds on initial scans, so concise and well-formatted information is essential.",
+    "keywords": [
+      "1 page vs 2 page",
+      "resume length",
+      "one page resume",
+      "fresher resume pages"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Resume",
+    "question": "What is an ATS and how do I make an ATS-friendly resume?",
+    "answer": "An Applicant Tracking System (ATS) parses resumes automatically. To be ATS-friendly, use a standard single-column layout, standard fonts, clear headings, no complex graphics or tables, and include relevant keywords from the job description.",
+    "keywords": [
+      "ats friendly",
+      "applicant tracking system",
+      "ats score",
+      "resume parsing"
+    ]
+  },
+  {
+    "id": 55,
+    "category": "Resume",
+    "question": "What technical skills should I mention on my resume?",
+    "answer": "Organize skills into categories: Languages (e.g., Python, C++, Java), Frameworks/Libraries (e.g., React, Flask, PyTorch), Databases/Tools (e.g., PostgreSQL, Git, Docker), and Core Subjects (e.g., DSA, OOP, OS). Only list skills you can defend in an interview.",
+    "keywords": [
+      "skills on resume",
+      "technical skills",
+      "what skills to put",
+      "skills section"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "Resume",
+    "question": "How do I write effective project bullet points on a resume?",
+    "answer": "Use action verbs and the formula: 'Accomplished [X] by implementing [Y], resulting in [Z]'. Highlight the technologies used, problems solved, and measurable outcomes (e.g., reduced query latency by 30%).",
+    "keywords": [
+      "project bullet points",
+      "resume action verbs",
+      "impact statements",
+      "how to write projects"
+    ]
+  },
+  {
+    "id": 57,
+    "category": "Resume",
+    "question": "Should I include my GitHub profile link on my resume?",
+    "answer": "Yes, absolutely. A well-maintained GitHub profile with clean code, descriptive READMEs, and pinned repositories provides concrete proof of your coding abilities to recruiters.",
+    "keywords": [
+      "github on resume",
+      "github link",
+      "portfolio link",
+      "coding profile"
+    ]
+  },
+  {
+    "id": 58,
+    "category": "Resume",
+    "question": "What are the most common resume mistakes students make?",
+    "answer": "Common mistakes include spelling and grammar errors, generic objective statements, listing basic tutorial clones (like todo apps), rating skills with arbitrary percentage bars, and making the resume longer than one page.",
+    "keywords": [
+      "resume mistakes",
+      "common errors",
+      "resume flaws",
+      "bad resume"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "Resume",
+    "question": "Should I include hobbies or soft skills on an engineering resume?",
+    "answer": "Avoid generic soft skills like 'hardworking' or 'punctual'. Instead, demonstrate leadership and communication through hackathon wins, club roles, or open-source mentoring. Keep hobbies minimal or omit them if space is tight.",
+    "keywords": [
+      "hobbies on resume",
+      "soft skills",
+      "interests section"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "Resume",
+    "question": "What free tools or templates should I use to build a tech resume?",
+    "answer": "Overleaf (using popular LaTeX templates like Jake's Resume or Deedy Resume) is the industry gold standard for clean, ATS-compliant tech resumes. Reactive Resume and Canva (simple layouts) are good alternatives.",
+    "keywords": [
+      "resume templates",
+      "overleaf resume",
+      "latex resume",
+      "jakes resume"
+    ]
+  },
+  {
+    "id": 61,
+    "category": "Projects",
+    "question": "How do I choose an engineering project topic?",
+    "answer": "Pick a project that solves a genuine pain point you or others experience. Choose a domain you enjoy (web, AI/ML, IoT, mobile) and build a solution that requires data handling, authentication, or an interactive interface.",
+    "keywords": [
+      "choose project",
+      "project idea",
+      "how to pick project",
+      "engineering project topic"
+    ]
+  },
+  {
+    "id": 62,
+    "category": "Projects",
+    "question": "What makes a good engineering project for resumes?",
+    "answer": "A great resume project has real-world utility, clean modular architecture, unit tests, a deployed live link, a comprehensive README with screenshots, and clear demonstration of backend and algorithmic logic.",
+    "keywords": [
+      "what makes good project",
+      "impressive project",
+      "standout project",
+      "resume project"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "Projects",
+    "question": "Should I build individual projects or group projects?",
+    "answer": "A balance is ideal. Have at least one individual project to demonstrate your personal end-to-end technical abilities, and one collaborative group project to show your teamwork, Git collaboration, and communication skills.",
+    "keywords": [
+      "individual vs group",
+      "team project",
+      "solo project"
+    ]
+  },
+  {
+    "id": 64,
+    "category": "Projects",
+    "question": "How do I document an engineering project properly?",
+    "answer": "Write a thorough GitHub README including: Project Overview, Problem Statement, Features, Tech Stack, Architecture/Flowchart diagram, Local Installation & Setup guide, API documentation, and Screenshots or Demo GIFs.",
+    "keywords": [
+      "document project",
+      "github readme",
+      "project documentation",
+      "readme guide"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "Projects",
+    "question": "Where can I deploy my engineering projects for free?",
+    "answer": "For frontend apps: Vercel, Netlify, or GitHub Pages. For backend and full-stack apps: Render, Railway, Fly.io, or AWS Free Tier. For ML models and demos: Hugging Face Spaces or Streamlit Community Cloud.",
+    "keywords": [
+      "free deployment",
+      "deploy project",
+      "host website",
+      "vercel",
+      "render",
+      "hugging face"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Projects",
+    "question": "What are some good final year project ideas for computer science students?",
+    "answer": "Impressive ideas include: an automated smart attendance system using computer vision, an NLP-based legal contract analyzer, a decentralized identity system using blockchain, or a real-time collaborative code editor with WebSockets.",
+    "keywords": [
+      "final year project",
+      "major project ideas",
+      "cse final year",
+      "capstone project"
+    ]
+  },
+  {
+    "id": 67,
+    "category": "Projects",
+    "question": "How do I avoid building generic or cliché projects?",
+    "answer": "Avoid basic To-Do apps, generic weather apps, or clone tutorials without customization. Instead, add unique features like real-time notifications, analytics dashboards, caching, custom algorithms, or third-party API integrations.",
+    "keywords": [
+      "avoid generic projects",
+      "unique project",
+      "cliche projects",
+      "tutorial hell"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Projects",
+    "question": "How do I explain my project during an interview?",
+    "answer": "Structure your explanation in 4 parts: 1) The problem it solves, 2) The architecture and tech stack choices, 3) The hardest technical obstacle you overcame, and 4) What you would improve in future versions.",
+    "keywords": [
+      "explain project",
+      "project interview",
+      "how to describe project"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Projects",
+    "question": "Should engineering students participate in hackathons?",
+    "answer": "Yes. Hackathons teach rapid prototyping, time management, Git teamwork, and public pitching under pressure. They are also fantastic for networking with industry sponsors and landing interview opportunities.",
+    "keywords": [
+      "hackathons",
+      "participate hackathons",
+      "hackathon benefits",
+      "devfolio"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "Projects",
+    "question": "How can I contribute to open-source software as a student?",
+    "answer": "Start with beginner-friendly repositories labeled 'good first issue' or during initiatives like Hacktoberfest and Google Summer of Code (GSoC). Begin by fixing documentation, writing tests, and gradually resolving small bug fixes.",
+    "keywords": [
+      "open source",
+      "gsoc",
+      "contribute open source",
+      "good first issue",
+      "github contribution"
+    ]
+  },
+  {
+    "id": 71,
+    "category": "Certifications",
+    "question": "Are online certifications important for getting a tech job?",
+    "answer": "Certifications show enthusiasm and structured learning, but practical projects, problem-solving skills, and coding abilities carry far more weight in tech hiring. A certificate without projects has minimal value.",
+    "keywords": [
+      "certifications important",
+      "certificate value",
+      "are certificates useful"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "Certifications",
+    "question": "Which certifications are recognized and respected by industry employers?",
+    "answer": "Vendor-backed cloud certifications (AWS Certified Solutions Architect, Google Associate Cloud Engineer, Microsoft Azure Fundamentals) and security credentials (CompTIA Security+, CEH) are widely recognized.",
+    "keywords": [
+      "recognized certifications",
+      "aws cert",
+      "azure certification",
+      "cloud cert"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "Certifications",
+    "question": "Should I prioritize earning certificates or building projects?",
+    "answer": "Always prioritize building hands-on projects. Projects prove you can write functional code and solve real problems, whereas certificates only prove you consumed course material.",
+    "keywords": [
+      "certificates vs projects",
+      "priority",
+      "portfolio vs certificate"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "Certifications",
+    "question": "Are Coursera or Udemy certificates worth mentioning on a resume?",
+    "answer": "You can mention them under a minor 'Certifications & Courses' section if you completed rigorous specializations (such as Andrew Ng's DeepLearning.AI or CS50), but keep the primary focus on your projects.",
+    "keywords": [
+      "coursera",
+      "udemy",
+      "cs50",
+      "andrew ng",
+      "online courses"
+    ]
+  },
+  {
+    "id": 75,
+    "category": "Certifications",
+    "question": "What is NPTEL and are NPTEL certificates useful?",
+    "answer": "NPTEL provides IIT-instructed online courses with proctored exams. Its certificates carry high academic credibility in Indian engineering colleges, credit transfers, and public sector/academic applications.",
+    "keywords": [
+      "nptel",
+      "swayam",
+      "iit certificate",
+      "nptel exam"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "Certifications",
+    "question": "Are free certifications from freeCodeCamp or Kaggle good?",
+    "answer": "Yes, freeCodeCamp certifications require completing 5 mandatory projects for every certification, and Kaggle micro-courses provide hands-on coding notebooks, making them practical and respected.",
+    "keywords": [
+      "freecodecamp",
+      "kaggle",
+      "free certificates"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "Certifications",
+    "question": "Do product companies like Google or Amazon ask for certifications?",
+    "answer": "No. Top product tech companies evaluate candidates almost entirely on DSA problem solving, system design, core computer science concepts, and cultural fit, regardless of certificates held.",
+    "keywords": [
+      "google certs",
+      "faang certifications",
+      "do tech giants need certs"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "Certifications",
+    "question": "Which certifications are best for cloud engineering?",
+    "answer": "Start with foundational exams like AWS Certified Cloud Practitioner or Azure Fundamentals (AZ-900), then progress to associate-level exams like AWS Solutions Architect Associate.",
+    "keywords": [
+      "cloud certifications",
+      "aws solutions architect",
+      "az 900",
+      "gcp cloud engineer"
+    ]
+  },
+  {
+    "id": 79,
+    "category": "Higher Studies",
+    "question": "Should I pursue an MS abroad or take a job after engineering?",
+    "answer": "If you are passionate about specialized technical research, global exposure, and have financial planning or scholarship avenues, an MS is rewarding. However, 1–2 years of industry experience before an MS strengthens your application and clarity.",
+    "keywords": [
+      "ms abroad",
+      "ms vs job",
+      "higher studies after btech",
+      "study abroad"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Higher Studies",
+    "question": "What is the GATE exam and what opportunities does it provide?",
+    "answer": "GATE (Graduate Aptitude Test in Engineering) is a national exam in India for admission to M.Tech/Ph.D. programs at IITs/NITs and recruitment into premier Public Sector Undertakings (PSUs like ONGC, IOCL, BHEL).",
+    "keywords": [
+      "gate exam",
+      "mtech iit",
+      "psu recruitment",
+      "gate preparation"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "Higher Studies",
+    "question": "What is the GRE and TOEFL/IELTS exam?",
+    "answer": "The GRE (Graduate Record Examination) tests verbal, quantitative, and analytical writing skills for graduate admissions abroad. TOEFL and IELTS assess English language proficiency for non-native speakers.",
+    "keywords": [
+      "gre",
+      "toefl",
+      "ielts",
+      "study in usa",
+      "gre exam"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "Higher Studies",
+    "question": "How should I prepare for GATE alongside college studies?",
+    "answer": "Align your semester subjects with the GATE syllabus, focus on standard textbooks, create concise revision notes, practice previous 15–20 years' question papers (PYQs), and join an online test series.",
+    "keywords": [
+      "prepare gate",
+      "gate strategy",
+      "gate pyqs",
+      "gate with college"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "Higher Studies",
+    "question": "What is the difference between M.Tech and MS by Research in India?",
+    "answer": "M.Tech is typically a 2-year coursework-intensive program with a final project, whereas MS by Research is a thesis-oriented program focusing heavily on research, experimentation, and published papers.",
+    "keywords": [
+      "mtech vs ms",
+      "ms by research",
+      "research degree"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "Higher Studies",
+    "question": "How important are research papers for MS admissions abroad?",
+    "answer": "Publishing peer-reviewed research papers in reputed IEEE, ACM, or Springer conferences significantly boosts your profile for competitive MS and Ph.D. programs, especially for research assistantships.",
+    "keywords": [
+      "research papers",
+      "ieee paper",
+      "publishing paper",
+      "ms profile"
+    ]
+  },
+  {
+    "id": 85,
+    "category": "Higher Studies",
+    "question": "What are Letters of Recommendation (LOR) and Statement of Purpose (SOP)?",
+    "answer": "An SOP is your personal essay articulating your academic journey, research goals, and reasons for applying. An LOR is an evaluation letter written by your professors or managers validating your skills and character.",
+    "keywords": [
+      "lor",
+      "sop",
+      "statement of purpose",
+      "recommendation letter"
+    ]
+  },
+  {
+    "id": 86,
+    "category": "Higher Studies",
+    "question": "How can I fund an MS degree abroad?",
+    "answer": "You can fund an MS through graduate assistantships (Teaching Assistantship - TA or Research Assistantship - RA), university tuition waivers, government scholarships, and educational loans.",
+    "keywords": [
+      "fund ms",
+      "scholarships",
+      "teaching assistantship",
+      "ra ta",
+      "student loan"
+    ]
+  },
+  {
+    "id": 87,
+    "category": "Higher Studies",
+    "question": "Is an MBA a good option after engineering?",
+    "answer": "An MBA is an excellent path if you want to transition into product management, management consulting, venture capital, marketing, or entrepreneurship. Gaining 2–3 years of work experience first makes your MBA much more valuable.",
+    "keywords": [
+      "mba after btech",
+      "cat exam",
+      "product management",
+      "mba vs tech"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "ECE Careers",
+    "question": "What are career options after Electronics and Communication Engineering (ECE)?",
+    "answer": "ECE graduates can work in core hardware industries (VLSI, semiconductor, embedded systems, automotive electronics, telecom) or transition into software engineering, data science, IoT, and robotics.",
+    "keywords": [
+      "ece career options",
+      "electronics jobs",
+      "after ece",
+      "opportunities for ece"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "ECE Careers",
+    "question": "Can an ECE student enter software and IT careers?",
+    "answer": "Yes, absolutely. Over 60% of IT and software companies allow ECE graduates to participate in placements. ECE students who master DSA, OOP, databases, and web/backend development compete on equal footing with CS students.",
+    "keywords": [
+      "ece to software",
+      "can ece student do coding",
+      "ece in it companies",
+      "switch to cs"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "ECE Careers",
+    "question": "What is the Internet of Things (IoT) and what are its job roles?",
+    "answer": "IoT connects physical devices embedded with sensors, software, and connectivity to exchange data over the internet. Roles include IoT Solutions Architect, Embedded Firmware Engineer, and IoT Security Specialist.",
+    "keywords": [
+      "iot",
+      "internet of things",
+      "arduino",
+      "raspberry pi",
+      "smart devices"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "ECE Careers",
+    "question": "What skills are required for a career in VLSI?",
+    "answer": "A VLSI career requires strong digital electronics fundamentals, proficiency in Hardware Description Languages (Verilog or VHDL), SystemVerilog, UVM verification, CMOS design, and EDA simulation tools like Cadence or Synopsys.",
+    "keywords": [
+      "vlsi skills",
+      "verilog",
+      "systemverilog",
+      "asic design",
+      "digital electronics"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "ECE Careers",
+    "question": "What skills are required for embedded systems engineering?",
+    "answer": "Core skills include Embedded C/C++, microcontroller architectures (ARM Cortex, PIC, AVR), RTOS (Real-Time Operating Systems like FreeRTOS), communication protocols (UART, SPI, I2C, CAN), and hardware debugging.",
+    "keywords": [
+      "embedded systems skills",
+      "embedded c",
+      "microcontroller",
+      "arm",
+      "rtos",
+      "i2c spi"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "ECE Careers",
+    "question": "Should an ECE student learn Python?",
+    "answer": "Yes. Python is essential for ECE students for scripting automation, processing sensor data, machine learning applications on edge devices (Edge AI), test automation, and interacting with microcontrollers like Raspberry Pi.",
+    "keywords": [
+      "ece student learn python",
+      "python for ece",
+      "electronics python"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "ECE Careers",
+    "question": "What is Robotics engineering and how do ECE students enter it?",
+    "answer": "Robotics integrates electronics, mechanical engineering, and computer science. ECE students enter robotics by mastering microcontrollers, motor drivers, sensor fusion, ROS (Robot Operating System), and control theory.",
+    "keywords": [
+      "robotics",
+      "ros",
+      "robot operating system",
+      "sensors",
+      "actuators"
+    ]
+  },
+  {
+    "id": 95,
+    "category": "ECE Careers",
+    "question": "What are top core electronics companies that hire engineering graduates?",
+    "answer": "Top core companies include Texas Instruments, Qualcomm, Intel, Nvidia, AMD, NXP Semiconductors, MediaTek, Analog Devices, Synopsys, and Bosch.",
+    "keywords": [
+      "core electronics companies",
+      "qualcomm",
+      "intel",
+      "texas instruments",
+      "nvidia",
+      "hardware companies"
+    ]
+  }
+]

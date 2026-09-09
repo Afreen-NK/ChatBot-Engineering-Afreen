@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerCompass — Engineering Student FAQ Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar / Off-canvas for Categories -->
+    <aside class="category-sidebar" id="categorySidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-title-wrap">
+          <span class="sidebar-icon">📚</span>
+          <h2>FAQ Categories</h2>
+        </div>
+        <button class="icon-btn close-sidebar-btn" id="closeSidebarBtn" title="Close sidebar" aria-label="Close sidebar">✕</button>
+      </div>
+      <p class="sidebar-subtitle">Explore 90+ verified answers across core engineering domains</p>
+      
+      <div class="category-list" id="categoryList">
+        <!-- Injected dynamically by script.js -->
+      </div>
+    </aside>
+
+    <!-- Main Chat Container -->
+    <div class="main-container">
+      <!-- Top Navigation Header -->
+      <header class="app-header">
+        <div class="header-brand">
+          <div class="brand-avatar">
+            <svg class="compass-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="currentColor"></polygon>
+            </svg>
+          </div>
+          <div class="brand-details">
+            <div class="brand-title-row">
+              <h1 class="brand-title">CareerCompass</h1>
+              <span class="status-badge" title="NLP Engine Active">
+                <span class="status-dot"></span>
+                <span>NLP Active</span>
+              </span>
+            </div>
+            <p class="brand-subtitle">Your Engineering Career FAQ Assistant</p>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <button class="btn btn-outline" id="openSidebarBtn" title="Explore FAQ Categories">
+            <span>🏷️</span>
+            <span class="btn-text">Browse Categories</span>
+          </button>
+          <button class="btn btn-ghost" id="clearChatBtn" title="Clear conversation history">
+            <span>🗑️</span>
+            <span class="btn-text">Clear Chat</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Category Quick Access Bar -->
+      <nav class="category-pills-bar" aria-label="Category quick access">
+        <div class="pills-scroll" id="pillsScroll">
+          <button class="pill-btn active" data-category="all">⚡ All Topics</button>
+          <button class="pill-btn" data-category="Career Paths">🎯 Career Paths</button>
+          <button class="pill-btn" data-category="Programming">💻 Programming</button>
+          <button class="pill-btn" data-category="AI/ML">🤖 AI/ML</button>
+          <button class="pill-btn" data-category="Internships">💼 Internships</button>
+          <button class="pill-btn" data-category="Placements">🏢 Placements</button>
+          <button class="pill-btn" data-category="Resume">📄 Resume</button>
+          <button class="pill-btn" data-category="Projects">🛠️ Projects</button>
+          <button class="pill-btn" data-category="Certifications">📜 Certifications</button>
+          <button class="pill-btn" data-category="Higher Studies">🎓 Higher Studies</button>
+          <button class="pill-btn" data-category="ECE Careers">⚡ ECE Careers</button>
+        </div>
+      </nav>
+
+      <!-- Category Questions Drawer (Shows questions when a category pill is clicked) -->
+      <div class="category-questions-drawer hidden" id="categoryDrawer">
+        <div class="drawer-header">
+          <span class="drawer-title" id="drawerTitle">Category Questions</span>
+          <button class="drawer-close-btn" id="drawerCloseBtn">✕</button>
+        </div>
+        <div class="drawer-questions" id="drawerQuestions">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- Messages Chat Area -->
+      <main class="chat-area" id="chatArea" role="log" aria-live="polite">
+        <!-- Initial Welcome Bubble -->
+        <div class="message-row bot-row" id="welcomeMessage">
+          <div class="message-avatar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="currentColor"></polygon>
+            </svg>
+          </div>
+          <div class="message-content-group">
+            <div class="message-bubble bot-bubble">
+              <p class="welcome-heading">Hi! I'm <strong>CareerCompass</strong> 👋</p>
+              <p>I can help you with engineering careers, placements, internships, programming, AI/ML, resumes, projects, and higher studies.</p>
+              <p class="welcome-question">What would you like to know?</p>
+            </div>
+            
+            <!-- Suggested Questions Chips -->
+            <div class="suggestions-container" id="suggestionsContainer">
+              <span class="suggestions-label">💡 Suggested Questions:</span>
+              <div class="chips-grid">
+                <button class="chip-btn" data-query="How do I prepare for placements?">How do I prepare for placements?</button>
+                <button class="chip-btn" data-query="What skills do I need for AI/ML?">What skills do I need for AI/ML?</button>
+                <button class="chip-btn" data-query="How do I build a good resume?">How do I build a good resume?</button>
+                <button class="chip-btn" data-query="What projects should I build?">What projects should I build?</button>
+                <button class="chip-btn" data-query="How can I find internships?">How can I find internships?</button>
+                <button class="chip-btn" data-query="Should an ECE student learn Python?">Should an ECE student learn Python?</button>
+              </div>
+            </div>
+            
+            <div class="message-meta">
+              <span class="message-time">Just now</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat history dynamically added here -->
+      </main>
+
+      <!-- Typing / Loading Indicator -->
+      <div class="typing-indicator-row hidden" id="typingIndicator">
+        <div class="message-avatar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="currentColor"></polygon>
+          </svg>
+        </div>
+        <div class="typing-bubble">
+          <div class="typing-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <span class="typing-text">Analyzing question with TF-IDF...</span>
+        </div>
+      </div>
+
+      <!-- Chat Input Footer -->
+      <footer class="input-container">
+        <form class="chat-form" id="chatForm" autocomplete="off">
+          <div class="input-wrapper">
+            <textarea
+              id="userInput"
+              class="chat-input"
+              rows="1"
+              placeholder="Ask anything about engineering careers, placements, DSA, resumes..."
+              aria-label="User query message"
+              maxlength="1000"
+            ></textarea>
+            <button type="submit" class="send-btn" id="sendBtn" title="Send Question" aria-label="Send Question">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </div>
+        </form>
+        <div class="footer-note">
+          <span>Powered by <strong>NLTK & Scikit-Learn TF-IDF</strong> • Academic NLP Project • 95 Curated Engineering FAQs</span>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
