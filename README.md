@@ -179,39 +179,64 @@ CareerCompass/
 
 ---
 
-## 8. Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
-- Python 3.10 or higher installed on your system.
-- Git (optional, for cloning).
 
-### Step 1: Clone or Navigate to the Project Directory
+* Python 3.10 or higher.
+* Git (for cloning the repository).
+* pip (Python package installer).
+
+### Step 1: Clone the Repository
+
 ```bash
-cd CareerCompass
+git clone https://github.com/Afreen-NK/ChatBot-Engineering-Afreen.git
+cd ChatBot-Engineering-Afreen
 ```
+
+Alternatively, navigate to the project directory if you have already downloaded the repository.
 
 ### Step 2: Create a Virtual Environment
-**On Windows:**
+
+A virtual environment keeps project dependencies isolated from other Python projects.
+
+**Windows (PowerShell):**
+
 ```powershell
-python -m venv venv
-venv\Scripts\activate
-```
-*(If using the Python launcher on Windows, you can also use `py -m venv venv`)*
-
-**On macOS / Linux:**
-```bash
-python3 -m venv venv
-source venv/bin/activate
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 ```
 
-### Step 3: Install Required Dependencies
+**macOS / Linux:**
+
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### Step 3: Install Dependencies
+
+With the virtual environment activated, run:
+
+```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-*(Note: On first execution, `nlp_processor.py` automatically checks and downloads necessary NLTK data: `punkt`, `stopwords`, `wordnet`, and `omw-1.4`).*
+### Step 4: NLTK Resource Setup
 
----
+On execution, `nlp_processor.py` checks for the required NLTK resources and attempts to download any missing ones.
+
+These include:
+
+* `punkt`
+* `punkt_tab`
+* `stopwords`
+* `wordnet`
+* `omw-1.4`
+
+An active internet connection may be required when these resources are not already available locally.
+
 
 ## 9. Running the Application
 
