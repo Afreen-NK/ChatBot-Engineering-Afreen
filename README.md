@@ -3,157 +3,185 @@
 > **An NLP-Powered Career Guidance Assistant for Engineering Students**  
 > Built with Python, Flask, NLTK, Scikit-Learn (TF-IDF & Cosine Similarity), and Vanilla Web Technologies.
 
----
-
 ## 1. Project Overview
 
-**CareerCompass** is an intelligent, domain-specialized FAQ retrieval chatbot designed specifically for engineering undergraduates. It delivers fast, verified, and student-friendly answers to common questions about career paths, programming languages, campus placements, internships, resume preparation, projects, certifications, higher studies, AI/ML, and electronics engineering (ECE).
+**CareerCompass** is a domain-specific FAQ retrieval chatbot designed to assist engineering undergraduate students with career-related guidance.
 
-Unlike applications that query external third-party generative AI APIs (such as OpenAI or Gemini), CareerCompass is built from the ground up to demonstrate **fundamental Natural Language Processing (NLP)** concepts. It showcases an explainable, deterministic information retrieval pipeline using text normalization, tokenization, stop-word elimination, WordNet lemmatization, TF-IDF vector space modeling, and cosine similarity scoring.
+It provides answers to commonly asked questions about career paths, programming, campus placements, internships, resume preparation, projects, certifications, higher studies, AI/ML and Electronics & Communication Engineering (ECE).
+
+Unlike applications that rely on external generative AI APIs, CareerCompass demonstrates fundamental Natural Language Processing (NLP) and information retrieval techniques through a locally hosted web application.
+
+Its retrieval pipeline combines text normalization, tokenization, stop-word removal, WordNet lemmatization, TF-IDF vectorization and cosine similarity to identify relevant questions from a curated FAQ dataset.
 
 ---
 
 ## 2. Problem Statement
 
-Engineering students face an overwhelming volume of conflicting advice across social media, forums, and senior advice regarding:
-- Which programming language or tech stack to learn first.
-- How to structure resumes and prepare for campus placement coding tests vs. HR interviews.
-- When and how to apply for summer internships and off-campus opportunities.
-- Whether to pursue higher studies (GATE / MS abroad) or accept job offers.
-- How non-CS engineering students (such as ECE) can break into tech roles.
+Engineering students often encounter conflicting or overwhelming career advice across social media, online forums and other information sources.
 
-Generic search engines often surface sponsored bootcamps or lengthy, unstructured articles. Generative models can hallucinate or produce generic platitudes. Engineering students need a **concise, direct, and factual reference assistant** tailored to their academic journey.
+Common challenges include:
+
+* Choosing the right programming language and technical skills to learn.
+* Preparing for coding assessments and technical interviews.
+* Finding internships and understanding application processes.
+* Building effective resumes and project portfolios.
+* Exploring higher education options such as GATE and MS abroad.
+* Identifying technology career opportunities for non-CS students, particularly those from ECE backgrounds.
+
+CareerCompass addresses this problem by providing a structured, domain-specific reference assistant that retrieves concise answers from a predefined knowledge base.
 
 ---
 
 ## 3. Proposed Solution
 
-CareerCompass provides a lightweight, local web-based assistant that maps a student's natural language question to a curated repository of 95 high-yield engineering career FAQs. By applying classical NLP and mathematical vector similarity:
-- The system understands semantically equivalent questions phrased in different ways.
-- It guarantees accurate, curated answers without risk of hallucination.
-- It operates completely offline/locally without requiring API keys or paid credits.
-- It maintains transparency by scoring similarity and applying a strict confidence threshold with helpful fallback guidance.
+CareerCompass provides a lightweight, locally hosted web-based FAQ assistant that matches natural language queries against a curated dataset of engineering career-related questions and answers.
+
+The application uses classical NLP and machine learning techniques to:
+
+* Normalize and preprocess user queries.
+* Represent questions using TF-IDF features.
+* Calculate cosine similarity between user queries and stored FAQ entries.
+* Rank matching questions based on similarity scores.
+* Apply a configurable similarity threshold to determine whether to return an answer or a fallback response.
+
+The system does not depend on external generative AI APIs or require API keys. Missing NLTK resources may need to be downloaded during initial setup.
 
 ---
 
 ## 4. Key Features
 
-- **Extensive FAQ Knowledge Base**: 95 curated questions covering 10 engineering domains:
-  1. 🎯 Career Paths (Software Engineer, AI/ML, Data Science, Embedded, VLSI, DevOps, Cybersecurity, Cloud)
-  2. 💻 Programming (Python vs C++, Java, DSA importance, OOP pillars, Git, SQL)
-  3. 🤖 AI / ML (Roadmaps, ML vs DL, NLP, Computer Vision, math prerequisites, beginner projects)
-  4. 💼 Internships (Application timeline, cold emailing, LinkedIn outreach, interview prep, PPOs)
-  5. 🏢 Placements (Aptitude tests, coding rounds, technical interviews, HR STAR method, tier-3 tips)
-  6. 📄 Resume (1-page format, ATS optimization, project bullet points, GitHub links, skill categorization)
-  7. 🛠️ Projects (Choosing topics, README documentation, avoiding cliché projects, free deployment)
-  8. 📜 Certifications (Cloud credentials, AWS/GCP, NPTEL, Coursera/Udemy vs. practical projects)
-  9. 🎓 Higher Studies (GATE preparation, MS abroad vs. job, GRE/TOEFL, research papers, funding)
-  10. ⚡ ECE Careers (Core VLSI, Embedded C/RTOS, IoT, Robotics, switching from ECE to Software)
-- **Classical NLP Preprocessing Pipeline**:
-  - Domain-aware token preservation (e.g. `C++` $\rightarrow$ `cpp`, `C#` $\rightarrow$ `csharp`, `AI/ML` $\rightarrow$ `ai ml`).
-  - Regex-based punctuation removal.
-  - NLTK word tokenization.
-  - English stop-word filtering.
-  - NLTK `WordNetLemmatizer` with dual verb and noun normalization (`preparing` $\rightarrow$ `prepare`, `internships` $\rightarrow$ `internship`).
-- **Mathematical FAQ Retrieval**:
-  - `TfidfVectorizer` utilizing unigrams and bigrams (`ngram_range=(1, 2)`) with sublinear term-frequency scaling.
-  - Cosine similarity matrix computation over the FAQ vector space.
-  - Configurable similarity threshold (`SIMILARITY_THRESHOLD = 0.25`).
-  - Graceful fallback guidance when queries fall below the threshold or are off-topic.
-- **Explainable Console Logs**: Displays raw user query, preprocessed lemma tokens, matched FAQ, similarity score, and threshold decision for live viva/demonstrations.
-- **Modern Responsive Web UI**:
-  - Clean card-based chat layout built with semantic HTML5 and vanilla CSS.
-  - Interactive clickable suggestion chips.
-  - Horizontal quick-access category pills bar with dynamic questions drawer.
-  - Slide-out off-canvas category directory.
-  - Animated typing indicator.
-  - Session-based conversation persistence (`sessionStorage`).
-  - Clear chat control.
+### 4.1 Domain-Specific FAQ Knowledge Base
+
+A curated FAQ dataset covering 10 engineering-related categories:
+
+1. Career Paths
+2. Programming
+3. AI / ML
+4. Internships
+5. Placements
+6. Resume Preparation
+7. Projects
+8. Certifications
+9. Higher Studies
+10. ECE Careers
+
+### 4.2 NLP Preprocessing Pipeline
+
+* Domain-aware normalization of technical terms such as `C++`, `C#` and `.NET`.
+* Lowercase conversion and punctuation normalization.
+* NLTK-based word tokenization.
+* English stop-word removal.
+* WordNet-based lemmatization using verb and noun normalization.
+
+### 4.3 TF-IDF-Based FAQ Retrieval
+
+* TF-IDF vectorization using unigrams and bigrams.
+* Sublinear term-frequency scaling.
+* Cosine similarity-based query matching.
+* Ranking of the most relevant FAQ entries.
+* Configurable similarity threshold.
+* Fallback responses for empty, irrelevant or low-similarity queries.
+
+### 4.4 Explainable Matching Process
+
+The backend provides console output containing information such as:
+
+* Original user query.
+* Preprocessed query.
+* Best-matching FAQ.
+* Similarity score.
+* Threshold-based retrieval decision.
+
+### 4.5 Responsive Web Interface
+
+* HTML5-based chat interface.
+* CSS-based responsive styling.
+* JavaScript-powered asynchronous communication with the Flask backend.
+* Interactive question suggestions.
+* Category-based FAQ navigation.
+* Typing indicator.
+* Session storage for conversation persistence.
+* Clear chat functionality.
 
 ---
 
 ## 5. Technologies Used
 
-| Layer | Technology | Purpose |
-| :--- | :--- | :--- |
-| **Language** | Python 3.10+ | Core backend and NLP logic |
-| **NLP Toolkit** | NLTK 3.8+ | Tokenization, stop-words corpus, WordNet lemmatization |
-| **Machine Learning** | Scikit-Learn 1.4+ | TF-IDF vectorization, n-grams, cosine similarity calculation |
-| **Web Framework** | Flask 3.0+ | REST API endpoints, routing, static asset serving |
-| **Frontend UI** | HTML5 / CSS3 / ES6 JS | Responsive interface, async fetch calls, category drawer |
-| **Testing** | Python `unittest` | Automated test suite for NLP preprocessing and matching accuracy |
+| Layer                | Technology       | Purpose                                           |
+| -------------------- | ---------------- | ------------------------------------------------- |
+| Programming Language | Python 3.10+     | Backend development and NLP processing            |
+| NLP Toolkit          | NLTK             | Tokenization, stop-word removal and lemmatization |
+| Machine Learning     | Scikit-learn     | TF-IDF vectorization and cosine similarity        |
+| Web Framework        | Flask            | Application routing and backend endpoints         |
+| Frontend             | HTML5            | Web interface structure                           |
+| Styling              | CSS3             | Responsive interface design                       |
+| Client-side Logic    | JavaScript (ES6) | User interactions and asynchronous requests       |
+| Testing              | Python unittest  | Automated unit testing                            |
 
 ---
 
 ## 6. NLP Processing & Matching Pipeline
 
-The matching engine processes user queries through the following pipeline:
+CareerCompass processes user queries through a sequence of NLP and information retrieval operations.
 
-```
-                  ┌────────────────────────────────────────┐
-                  │       User Asks a Question             │
-                  │ "How can I prepare for AI/ML careers?" │
-                  └───────────────────┬────────────────────┘
-                                      │
-                                      ▼
-                  ┌────────────────────────────────────────┐
-                  │          Text Normalization            │
-                  │   - Convert to lowercase               │
-                  │   - Domain terms (C++ -> cpp, etc.)    │
-                  │   - Strip punctuation & special chars  │
-                  └───────────────────┬────────────────────┘
-                                      │
-                                      ▼
-                  ┌────────────────────────────────────────┐
-                  │              Tokenization              │
-                  │     NLTK word_tokenize(clean_text)     │
-                  └───────────────────┬────────────────────┘
-                                      │
-                                      ▼
-                  ┌────────────────────────────────────────┐
-                  │           Stop-Word Removal            │
-                  │ Filter words in nltk.corpus.stopwords   │
-                  │ (removes: 'how', 'can', 'i', 'for')    │
-                  └───────────────────┬────────────────────┘
-                                      │
-                                      ▼
-                  ┌────────────────────────────────────────┐
-                  │       WordNet Lemmatization            │
-                  │ Reduce to base dictionary form:        │
-                  │ 'careers' -> 'career', 'preparing'     │
-                  │ Output: "prepare ai ml career"         │
-                  └───────────────────┬────────────────────┘
-                                      │
-                                      ▼
-                  ┌────────────────────────────────────────┐
-                  │         TF-IDF Vectorization           │
-                  │ Transform via pre-fit TfidfVectorizer  │
-                  │ (produces sparse high-dimensional vec) │
-                  └───────────────────┬────────────────────┘
-                                      │
-                                      ▼
-                  ┌────────────────────────────────────────┐
-                  │       Cosine Similarity Matrix         │
-                  │  cos_sim(User_Vec, FAQ_Matrix)         │
-                  │  Rank scores descending: S1 >= S2 >= S3│
-                  └───────────────────┬────────────────────┘
-                                      │
-                                      ▼
-                  ┌────────────────────────────────────────┐
-                  │       Threshold Evaluation Check       │
-                  │      Is Best_Score >= 0.25 ?           │
-                  └──────────┬──────────────────┬──────────┘
-                             │                  │
-                           YES                  NO
-                             │                  │
-                             ▼                  ▼
-               ┌───────────────────────┐  ┌───────────────────────┐
-               │ Return Top FAQ Answer │  │ Return Friendly       │
-               │ + Confidence & Badges │  │ Fallback Prompt       │
-               └───────────────────────┘  └───────────────────────┘
+### Query Processing Workflow
+
+```text
+             User Submits a Question
+                       |
+                       v
+              Text Normalization
+          (Lowercase, technical terms,
+             punctuation handling)
+                       |
+                       v
+                  Tokenization
+                 (NLTK)
+                       |
+                       v
+               Stop-Word Removal
+                       |
+                       v
+              WordNet Lemmatization
+                       |
+                       v
+               TF-IDF Vectorization
+                       |
+                       v
+              Cosine Similarity
+                       |
+                       v
+               Rank FAQ Matches
+                       |
+                       v
+              Similarity Threshold
+                  Evaluation
+                  /       \
+                YES        NO
+                 |          |
+                 v          v
+           Return Best    Return
+           FAQ Answer    Fallback
 ```
 
----
+### Technical Explanation
+
+**1. Text Normalization:** Converts text into a consistent format and handles selected technical terms.
+
+**2. Tokenization:** Splits the processed query into individual tokens using NLTK.
+
+**3. Stop-Word Removal:** Filters common English words that contribute limited information to the retrieval process.
+
+**4. Lemmatization:** Converts words into their dictionary forms using WordNet.
+
+**5. TF-IDF Vectorization:** Represents the processed query and FAQ entries as numerical feature vectors using unigrams and bigrams.
+
+**6. Cosine Similarity:** Calculates similarity between the user query vector and the stored FAQ vectors.
+
+**7. Threshold Evaluation:** Compares the highest similarity score against the configured threshold (0.25 by default).
+
+**8. Response Generation:** Returns the corresponding FAQ answer when the threshold is met; otherwise, provides a fallback response.
+
 
 ## Project Structure
 
