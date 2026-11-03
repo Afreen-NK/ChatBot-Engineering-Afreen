@@ -178,6 +178,16 @@ CareerCompass/
 ```
 
 ---
+## Screenshots
+
+### 1. Main Interface
+
+![CareerCompass Home Interface](screenshots/careercompass-home.png)
+
+### 2. Chatbot Response
+
+![CareerCompass Chatbot Response](screenshots/careercompass-response.png)
+
 
 ## 8. Installation & Setup
 
