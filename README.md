@@ -368,22 +368,41 @@ $$\text{Cosine Similarity}(u, v) = \frac{u \cdot v}{\|u\|_2 \|v\|_2} = \frac{\su
 
 ## 13. System Limitations
 
-1. **Vocabulary Invariance (Out-Of-Vocabulary - OOV)**: TF-IDF relies on exact term overlap. If a user uses slang or rare synonyms not present in the FAQ question or keywords, the cosine similarity may drop.
-2. **Grammar & Word Order Insensitivity**: TF-IDF treats texts primarily as bag-of-words (mitigated partially in CareerCompass by using bigrams `(1, 2)`).
-3. **Domain Scope**: The chatbot answers questions within its 95 curated engineering career FAQs and is intentionally prevented from hallucinating answers to out-of-scope queries.
+1. **Vocabulary Dependency:** TF-IDF relies on overlapping terms between user queries and stored FAQ entries. Queries containing unfamiliar terminology or synonyms may receive lower similarity scores.
+
+2. **Limited Semantic Understanding:** The bag-of-words approach does not fully understand contextual meaning, intent or sentence structure. Using unigrams and bigrams provides some improvement but does not solve this limitation.
+
+3. **Fixed Knowledge Base:** Responses are restricted to the information available in the curated FAQ dataset. New topics require additional FAQ entries.
+
+4. **Threshold Sensitivity:** The retrieval threshold influences whether a query receives an answer or fallback response. Its effectiveness depends on the quality and diversity of the evaluation queries.
+
+5. **Language Support:** The current preprocessing pipeline is designed primarily for English-language queries.
 
 ---
 
 ## 14. Future Improvements
 
-- **Dense Sentence Transformers**: Upgrade from sparse TF-IDF vectors to dense sentence embeddings (such as `all-MiniLM-L6-v2`) for deeper semantic capture.
-- **Retrieval-Augmented Generation (RAG)**: Connect the top matched FAQ documents to a small local open-source LLM (such as Llama 3 8B or Gemma 2 2B) to summarize and personalize answers dynamically.
-- **Voice Input & Speech-to-Text**: Integrate the Web Speech API in the frontend for hands-free queries.
-- **Multilingual Support**: Add Hindi and regional Indian language support for wider student accessibility.
-- **User Analytics & Feedback**: Store student upvotes/downvotes in an SQLite/PostgreSQL database to automatically identify missing FAQs.
+The following enhancements are potential directions for extending CareerCompass:
+
+* **Semantic Search:** Explore sentence-transformer models such as `all-MiniLM-L6-v2` to improve retrieval of semantically similar queries.
+
+* **Retrieval-Augmented Generation (RAG):** Investigate integrating a locally hosted language model with retrieved FAQ content to generate contextual responses.
+
+* **Voice Interaction:** Introduce speech-to-text capabilities using browser-based speech recognition.
+
+* **Multilingual Support:** Extend query processing to support Hindi and other regional Indian languages.
+
+* **User Feedback System:** Introduce answer ratings and feedback collection to identify gaps in the FAQ knowledge base.
+
+* **Performance Evaluation:** Evaluate retrieval quality using precision, recall, F1-score and threshold comparisons across a labelled query dataset.
 
 ---
 
 ## 15. License & Academic Attribution
 
-Developed as an academic demonstration of Natural Language Processing and Information Retrieval principles for engineering students. Free to use, adapt, and extend for educational projects and presentations.
+CareerCompass was developed as an educational project demonstrating Natural Language Processing, machine learning-based text representation and information retrieval techniques.
+
+The project is intended for learning, experimentation and further development.
+
+*License information can be added once an appropriate open-source license is selected.*
+
