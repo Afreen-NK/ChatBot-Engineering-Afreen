@@ -155,27 +155,32 @@ The matching engine processes user queries through the following pipeline:
 
 ---
 
-## 7. Project Structure
+## Project Structure
 
-```
+```text
 CareerCompass/
-├── app.py                  # Flask web application and REST API endpoints (/chat, /api/categories, /api/faqs)
-├── chatbot.py              # CareerCompassBot matching engine: TF-IDF vectorizer, cosine similarity, ranking
-├── nlp_processor.py        # Text normalization, tokenization, stop-words, WordNet lemmatizer
-├── faq_data.json           # Comprehensive FAQ dataset (95 verified questions & answers with keywords)
-├── requirements.txt        # Minimal required dependencies (Flask, nltk, scikit-learn)
-├── README.md               # Complete project documentation and presentation viva guide
+│
+├── app.py                  # Flask application and API endpoints
+├── chatbot.py              # TF-IDF-based FAQ matching and cosine similarity
+├── nlp_processor.py        # Text normalization and NLP preprocessing
+├── faq_data.json           # FAQ dataset containing questions, answers and keywords
+├── requirements.txt        # Python project dependencies
+├── .gitignore              # Files and directories excluded from version control
+├── README.md               # Project documentation
 │
 ├── templates/
-│   └── index.html          # Semantic HTML5 chat interface with responsive layout
+│   └── index.html          # Chat interface
 │
 ├── static/
-│   ├── style.css           # Modern CSS styling (variables, flexbox, animations, mobile layout)
-│   └── script.js           # Client-side controller (asynchronous fetch, category drawer, session storage)
+│   ├── style.css           # Interface styling and responsive layout
+│   └── script.js           # Client-side interactions and API communication
 │
 └── tests/
-    └── test_chatbot.py     # Unittest suite covering exact matches, paraphrasing, edge cases, fallbacks
+    └── test_chatbot.py     # Automated unit tests using unittest
 ```
+
+**Note:** The virtual environment (`.venv/`) is excluded from version control and is created locally during installation.
+
 
 ---
 
